@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -9,6 +14,10 @@ body {
 
 #headshot {
     height: 400px;
+}
+
+.red {
+  color: #c51130
 }
 
 #sidebar-left {
@@ -34,24 +43,24 @@ body {
 }
 
 #intro {
-    margin: 20px;
+    margin: 30px;
 }
 
 #about {
-    margin: 20px;
+    margin: 30px;
 }
 
 #experiences {
-    margin: 20px;
+    margin: 30px;
 }
 
 #resume {
-    margin: 20px;
+    margin: 30px;
 }
 
 /* Sticky navbar */
   #navbar {
-    background-color: #333; /* Black background color */
+    background-color: #068ed3; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
@@ -89,7 +98,7 @@ body {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #068ed3;
+    background-color: #73c6ef;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -112,7 +121,7 @@ body {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #eec200;
+    border: 4px solid #e7ce5e;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -137,9 +146,9 @@ body {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #eec200;
+    border: medium solid #e7ce5e;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #eec200;
+    border-color: transparent transparent transparent #e7ce5e;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -151,20 +160,20 @@ body {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #eec200;
+    border: medium solid #e7ce5e;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #eec200 transparent transparent;
+    border-color: transparent #e7ce5e transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
   .right::after {
-    left: -16px;
+    left: -17px;
   }
   
   /* The actual content */
   .content {
     padding: 20px 30px;
-    border: 4px solid #eec200;
+    border: 4px solid #e7ce5e;
     position: relative;
     border-radius: 6px;
   }
@@ -186,7 +195,7 @@ body {
   /* Make sure that all arrows are pointing leftwards */
     .container::before {
       left: 60px;
-      border: medium solid #eec200;
+      border: medium solid #e7ce5e;
       border-width: 10px 10px 10px 0;
       border-color: transparent white transparent transparent;
     }
